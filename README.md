@@ -124,7 +124,7 @@ Nested components:
         kind={Kinds.NOTIFICATION_INFO}
         isShowMessage={false}
         >
-            <p>It's nested element.</p>
+            <p>It is nested element.</p>
         </Notifications>
 ```
 
@@ -196,7 +196,7 @@ class Demo extends Component {
                     <Col xs={12}>
                         <Notifications nkey="demo.key"
                                        kind={Kinds.NOTIFICATION_INFO}>
-                            <p>It's nested element.</p>
+                            <p>It is nested element.</p>
                         </Notifications>
                         <Notifications nkey="demo.key"
                                        kind={Kinds.NOTIFICATION_ERROR}
