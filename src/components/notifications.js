@@ -21,8 +21,6 @@ class Notifications extends Component {
         const _className = this._getClassName(this.props.state, kind, className, isUseDefSettings);
         const _style = this._getStyle(this.props.state, kind, style, isUseDefSettings);
 
-        console.log(this.props);
-
         if (!_notifs.length) return null;
 
         if (_notifs.length == 1) {
