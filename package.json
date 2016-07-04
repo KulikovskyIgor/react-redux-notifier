@@ -30,9 +30,16 @@
   "license": "ISC",
   "main": "lib/index.js",
   "name": "react-redux-notifier",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "scripts": {
     "build": "babel src --out-dir lib",
     "start": "node server.js"
+  },
+  "bugs": {
+    "url": "https://github.com/KulikovskyIgor/react-redux-notifier/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KulikovskyIgor/react-redux-notifier.git"
   }
 }
