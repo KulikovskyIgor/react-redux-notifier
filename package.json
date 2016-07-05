@@ -30,7 +30,7 @@
   "license": "ISC",
   "main": "lib/index.js",
   "name": "react-redux-notifier",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "scripts": {
     "build": "babel src --out-dir lib",
     "start": "node server.js"

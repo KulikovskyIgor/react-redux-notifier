@@ -13,7 +13,7 @@ import {
     Reducer,
     Actions,
     Kinds
-} from '../src/index.js';
+} from '../lib/index.js';
 
 /* ***** DEMO COMPONENT ***** */
 

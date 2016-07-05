@@ -80,10 +80,10 @@ Also, you can specify OPTIONS like "hideAfter | ha" and "showAfter | sa":
 Set global settings for each kind of notification:
 
 ```js
-import { Actions, Kinds } from '../src/index.js';
+import { Actions, Kinds } from 'react-redux-notifier';
 const CUSTOMIZE = Actions.CUSTOMIZE;
 // or
-import { CUSTOMIZE } from '../src/index.js';
+import { CUSTOMIZE } from 'react-redux-notifier';
 
 export default class Demo extends Component {
     componentWillMount() { 
@@ -146,7 +146,7 @@ import {
     Reducer,
     Actions,
     Kinds
-} from '../src/index.js';
+} from 'react-redux-notifier';
 
 /* ***** DEMO COMPONENT ***** */
 
